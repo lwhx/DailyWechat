@@ -15,8 +15,8 @@ jobs:
       with:
         ref: master
 
-    - name: sender
-      uses: actions/setup-python@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2.2.3
       with:
         python-version: '3.x'
         architecture: 'x64'
